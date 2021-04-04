@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Passwort zurück setzten - Google</title>
+</head>
+<body>
+    <div class="header-er">
+        <h1 id="Sicherheitseinstellungen">
+            Sicherheitseinstellungen
+        </h1>
+        <h4 id="passwort_fest">
+            Bitte setzen sie ein neues Passwort.
+        </h4>
+    </div>
+    <div class="container">
+        <div class="header">
+            <h2>Passwort ändern</h2>
+        </div>
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="username">Benutzername</label>
+                <input type="text" placeholder="Max Mustermann" id="username" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Email</label>
+                <input type="email" placeholder="benutzername@gmail.com" id="email" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Altes Passwort</label>
+                <input type="password" placeholder="Altes Passwort" id="password"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Neues Passwort</label>
+                <input type="password" placeholder="Neues Passwort" id="password2"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <button id="btn">Bestätigen</button>
+            <a id="hilfe" href="https://support.google.com/mail/answer/41078?hl=de&ref_topic=7065107">Brauchen Sie Hilfe?</a>
+        </form>
+    </div>
+    <a id="Konto" href="http://google.com/anmeldung">Mit einem anderen Konto anmelden</a>
+    
+    
+    
+</body>
+</html>
